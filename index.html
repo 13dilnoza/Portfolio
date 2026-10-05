@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mening Portfolioim</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <canvas id="heroCanvas" aria-hidden="true"></canvas>
+
+  <main class="page-shell">
+    <header class="site-header">
+      <a class="brand" href="#home">
+        <span class="brand-mark">P</span>
+        <span>Portfolio</span>
+      </a>
+      <a class="status-pill" href="#contacts">
+        <span></span>
+        Aloqa uchun ochiqman
+      </a>
+      <button class="theme-toggle" id="themeToggle" type="button" aria-label="Mavzuni almashtirish">
+        <span class="theme-icon">Tun</span>
+      </button>
+    </header>
+
+    <section class="hero glass-panel" id="home">
+      <div class="hero-content">
+        <p class="eyebrow">Frontend Developer</p>
+        <h1>Yudasheva <br>Dilnoza</h1>
+        <p class="subtitle">Raqamli tajribalar, chiroyli interfeyslar va zamonaviy web sahifalar yarataman.</p>
+        <div class="hero-actions">
+          <a class="btn primary" href="#projects">Ishlarni ko'rish</a>
+          <a class="btn secondary" href="#contacts">Bog'lanish</a>
+        </div>
+      </div>
+
+      <div class="hero-visual" aria-label="Keyin qo'shiladigan rasm uchun joy">
+        <div class="photo-placeholder">
+          <span>RASM</span>
+          <strong>keyin qo'shiladi</strong>
+        </div>
+        <div class="orbit-badge">
+          <span>✦</span>
+          <small>Designing the future</small>
+        </div>
+      </div>
+    </section>
+
+    <section class="stats glass-panel" aria-label="Qisqa raqamlar">
+      <div class="stat-item">
+        <span>01</span>
+        <strong>1+</strong>
+        <p>Yil tajriba</p>
+      </div>
+      <div class="stat-item">
+        <span>02</span>
+        <strong>5+</strong>
+        <p>Loyihalar</p>
+      </div>
+      <div class="stat-item">
+        <span>03</span>
+        <strong>3</strong>
+        <p>Texnologiya</p>
+      </div>
+      <blockquote>
+        Dizayn faqat ko'rinish emas. Dizayn - sayt qanday ishlashidir.
+      </blockquote>
+    </section>
+
+    <section class="section glass-panel" id="projects">
+      <div class="section-heading">
+        <p class="eyebrow">Tanlangan ishlar</p>
+        <a href="#contacts">Hammasini ko'rish</a>
+      </div>
+
+      <div class="case-grid">
+        <article class="case-card">
+          <div class="case-preview preview-one">
+            <span>01</span>
+            <strong>Portfolio UI</strong>
+          </div>
+          <h2>Shaxsiy sayt</h2>
+          <p>Men haqimda, ko'nikmalar va kontaktlar uchun zamonaviy portfolio sahifasi.</p>
+          <div class="tags">
+            <span>UI/UX</span>
+            <span>HTML</span>
+          </div>
+        </article>
+
+        <article class="case-card">
+          <div class="case-preview preview-two">
+            <span>02</span>
+            <strong>Task Flow</strong>
+          </div>
+          <h2>To-Do ilovasi</h2>
+          <p>JavaScript yordamida vazifalarni qo'shish, belgilash va o'chirish ilovasi.</p>
+          <div class="tags">
+            <span>JavaScript</span>
+            <span>DOM</span>
+          </div>
+        </article>
+
+        <article class="case-card">
+          <div class="case-preview preview-three">
+            <span>03</span>
+            <strong>Mini Game</strong>
+          </div>
+          <h2>Mini o'yin</h2>
+          <p>Brauzerda ishlaydigan kichik interaktiv o'yin va mantiqiy mashq.</p>
+          <div class="tags">
+            <span>Game</span>
+            <span>Canvas</span>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="info-grid" id="about">
+      <article class="skills-card glass-panel">
+        <p class="eyebrow">Ko'nikmalar</p>
+        <h2>Skills & Expertise</h2>
+        <div class="skill-list">
+          <label>
+            <span>HTML</span>
+            <strong>95%</strong>
+            <i style="--level: 95%"></i>
+          </label>
+          <label>
+            <span>CSS</span>
+            <strong>90%</strong>
+            <i style="--level: 90%"></i>
+          </label>
+          <label>
+            <span>JavaScript</span>
+            <strong>80%</strong>
+            <i style="--level: 80%"></i>
+          </label>
+          <label>
+            <span>Responsive</span>
+            <strong>85%</strong>
+            <i style="--level: 85%"></i>
+          </label>
+        </div>
+      </article>
+
+      <article class="stack-card glass-panel">
+        <p class="eyebrow">Texnologiyalar</p>
+        <h2>Tech Stack</h2>
+        <div class="stack-grid">
+          <span>HTML</span>
+          <span>CSS</span>
+          <span>JS</span>
+          <span>Git</span>
+          <span>GitHub</span>
+          <span>Figma</span>
+        </div>
+      </article>
+
+      <article class="philosophy-card glass-panel">
+        <p class="eyebrow">Maqsad</p>
+        <h2>Design Philosophy</h2>
+        <div class="crystal">
+          <span></span>
+        </div>
+        <p>Toza ko'rinish, qulay foydalanish va tez ishlash.</p>
+      </article>
+    </section>
+
+    <section class="contact-section glass-panel" id="contacts">
+      <div class="contact-copy">
+        <p class="eyebrow">Keling boshlaymiz</p>
+        <h2>Birga ajoyib narsa yaratamiz</h2>
+        <p>Loyiha, portfolio yoki web sahifa bo'yicha men bilan bog'lanishingiz mumkin.</p>
+        <a class="btn primary" href="https://t.me/your_telegram" target="_blank" rel="noreferrer">Telegram</a>
+      </div>
+
+      <div class="contact-card">
+        <a href="https://github.com/13dilnozaferrer">
+          <span>GitHub</span>
+          <strong>@13dilnozaferrer</strong>
+        </a>
+        <a href="https://t.me/your_telegram" target="_blank" rel="noreferrer">
+          <span>Telegram</span>
+          <strong>@your_telegram</strong>
+        </a>
+        <a href="tel:+998901234567">
+          <span>Telefon</span>
+          <strong>+998 90 123 45 67</strong>
+        </a>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <p>© <span id="year"></span> Ismingiz. Barcha huquqlar himoyalangan.</p>
+      <span>Designing tomorrow, today.</span>
+    </footer>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
